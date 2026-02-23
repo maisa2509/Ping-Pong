@@ -1,5 +1,6 @@
 // Criar bolinha
-let raio = 7,5;
+a// Criar bolinha
+let raio = 7.5;
 let xBolinha = 100;
 let yBolinha = 200;
 let diamente = raio * 2;
@@ -25,4 +26,17 @@ function setup (){
 }
 
 function draw(){
+  
+}
+
+function movimentoBolinha(){
+  circle(xBolinha,yBolinha,diamantro);
+    
+    xBolinha += velocidadeXBolinha;
+    yBolinha += velocidadeYBolinha;
+    if(xBolinha + raio > width || xBolinha-raio < 0){
+      velocidadeXBolinha *= -1;
+    };
+    if (yBolinha + raio > height || yBolinha-raio< 0){
+      velocidadeYBolinha *= -1}}
   

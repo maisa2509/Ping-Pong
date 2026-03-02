@@ -50,8 +50,22 @@ function draw(){
   if(KeyIsDown(DOWN_ARROW)){
     yRaquete+= 10}
 
-  if(xBolinha -raio< xRaquete + 10 $
-     yBolinha-raio< yRaquete + 90 $ 
+  if(xBolinha -raio< xRaquete + 10 &
+     yBolinha-raio< yRaquete + 90 &)
+     yBolinha + raio> yRaquete )}
+     velocidadeXBolinha *= -1;
+     raquete.play()}
+     }
+  if(XBolinha + raio > xRaqueteOponenete &
+     yBolinha - raio < yRaqueteOponente + 90 &
+     yBolinha + raio > yRaqueteOponente)
+    velocidadeXBolinha *= -1;
+raquetada.play()}
+     
+     
+     
+     
+     
 function movimentoBolinha(){
   circle(xBolinha,yBolinha,diamantro);
     
